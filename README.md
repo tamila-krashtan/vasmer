@@ -28,7 +28,7 @@ Note:
 
 Abbreviation database fields:
 * `abbreviation`: the abbreviation as it (mostly) appears in the dictionary;
-* `aliases`: other variants of same abbreviation and other abbreviations applying to the same term;
+* `aliases`: comma-delimited variants of the same abbreviation and other abbreviations applying to the same term;
 * `type`: one of the following types of the term abbreviated:
     * `language`: languages as well as dialects and language families;
     * `russian dialect`: dialects of Russian;
@@ -59,6 +59,7 @@ Note:
 * Replaced characters from wrong scripts (Cyrillic *р* and *а* in *раndа*, Latin *rpe* in *rpeч*, etc.).
 * Removed hyphenation and spaces in words which were torn apart by line breaks (e.g. *ниже-  гор.* at *алы́р*).
 * Corrected occasional OCR 'typos' (e.g. *мож(ж)све́льник* -> *мож(ж)еве́льник*).
+* Changed Latin characters to Cyrillic in headwords.
 
 Note:
 * HTML syntax present in the articles: `<i>` for italic, `<sup>` for superscript, `&gt;` for >, `&lt;` for <.
