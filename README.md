@@ -53,7 +53,7 @@ Note:
 * Corrected article names consisting of two words: the second word was originally parsed as a part of the article body (e.g. *хо́дором ходи́ть*).
 * Added missing opening/closing brackets – some were absent in the original text, some were lost in the process of OCR.
 * Moved Trubachyov's notes to the appropriate column if they were fully or partially left in the main text (e.g. for *ела́нь*, *ковш*).
-* Corrected punctuation where it was OCR-ed wrongly (e.g. *укр.. блр.* -> *укр., блр.* at *ёвня*).
+* Corrected punctuation where it was OCRed wrongly (e.g. *укр.. блр.* -> *укр., блр.* at *ёвня*).
 * Corrected italicization of words in Cyrillic script (e.g. `<i>вла̑ч</i>и<i>̑</i>м` -> `<i>вла̑чи̑м</i>`).
 * Corrected some wrongly displayed characters (Russian ё, Ukrainian ї, Polish ł, etc.).
 * Replaced characters from wrong scripts (Cyrillic *р* and *а* in *раndа*, Latin *rpe* in *rpeч*, etc.).
